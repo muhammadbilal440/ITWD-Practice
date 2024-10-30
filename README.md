@@ -1,2 +1,2 @@
 # ITWD-Practice
-Hello, This repository is jusr for the purpose of practice. 
+Hello, This repository is just for the purpose of practice. 
