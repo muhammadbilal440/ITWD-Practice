@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div style="width: 300px; margin: auto;">
+        <h2>Registration Form</h2>
+        
+        <!-- Personal Information Section -->
+        <div>
+            <h3>Personal Information</h3>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName"><br><br>
+            
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName"><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+        </div>
+
+        <!-- Account Information Section -->
+        <div>
+            <h3>Account Information</h3>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword"><br><br>
+        </div>
+
+        <!-- Preferences Section -->
+        <div>
+            <h3>Preferences</h3>
+            <label>Preferred Contact Method:</label><br>
+            <input type="radio" id="emailContact" name="contact" value="Email">
+            <label for="emailContact">Email</label><br>
+            
+            <input type="radio" id="phoneContact" name="contact" value="Phone">
+            <label for="phoneContact">Phone</label><br><br>
+        </div>
+        
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>
